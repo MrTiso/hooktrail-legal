@@ -76,8 +76,7 @@
 <h2>3. Third-party services</h2>
 <ul>
   <li><strong>Supabase</strong> (supabase.com) – database, authentication, and file storage. Data is processed on Supabase infrastructure. <a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a>.</li>
-  <li><strong>Groq</strong> (groq.com) – AI-powered fish species identification. When you use the "Identify species" feature, your photo is sent to Groq's API for processing by an AI vision model. Only the image is transmitted; no account data or personal information is included. <a href="https://groq.com/privacy-policy/" target="_blank">Groq Privacy Policy</a>.</li>
-  <li><strong>iNaturalist</strong> (inaturalist.org) – species name and taxonomy lookup. After identification, the species scientific name is looked up on iNaturalist's public API to retrieve the common name. No photos or personal data are sent to iNaturalist.</li>
+  <li><strong>iNaturalist</strong> (inaturalist.org) – AI-powered fish species identification and taxonomy lookup. When you use the "Identify species" feature, your photo is sent to iNaturalist's Computer Vision API for species identification. After identification, the species scientific name is also looked up via iNaturalist's public API to retrieve the common name — only the text name is sent for this step, no photo. No account data or other personal information is included in either request. <a href="https://www.inaturalist.org/pages/privacy" target="_blank">iNaturalist Privacy Policy</a>.</li>
   <li><strong>OpenWeather</strong> – current weather at your catch location. Only GPS coordinates are sent.</li>
   <li><strong>OpenStreetMap / Nominatim</strong> – reverse geocoding (GPS → place name). Only GPS coordinates are sent.</li>
 </ul>
@@ -170,8 +169,7 @@
 <h2>3. Diensten van derden</h2>
 <ul>
   <li><strong>Supabase</strong> (supabase.com) – database, authenticatie en bestandsopslag. <a href="https://supabase.com/privacy" target="_blank">Privacybeleid Supabase</a>.</li>
-  <li><strong>Groq</strong> (groq.com) – AI-gestuurde vissoortherkenning. Wanneer u de functie "Soort identificeren" gebruikt, wordt uw foto verstuurd naar de API van Groq voor verwerking door een AI-visionmodel. Alleen de afbeelding wordt verstuurd; geen accountgegevens of persoonsgegevens. <a href="https://groq.com/privacy-policy/" target="_blank">Privacybeleid Groq</a>.</li>
-  <li><strong>iNaturalist</strong> (inaturalist.org) – opzoeken van soortnamen en taxonomie. Na identificatie wordt de wetenschappelijke naam opgezocht via de publieke API van iNaturalist om de gewone naam op te halen. Er worden geen foto's of persoonsgegevens verstuurd naar iNaturalist.</li>
+  <li><strong>iNaturalist</strong> (inaturalist.org) – AI-gestuurde vissoortherkenning en opzoeken van soortnamen. Wanneer u de functie "Soort identificeren" gebruikt, wordt uw foto verstuurd naar de Computer Vision API van iNaturalist voor soortherkenning. Na identificatie wordt de wetenschappelijke naam ook opgezocht via de publieke API van iNaturalist om de gewone naam op te halen — voor deze stap wordt alleen de tekstnaam verstuurd, geen foto. Er worden geen accountgegevens of andere persoonsgegevens meegestuurd. <a href="https://www.inaturalist.org/pages/privacy" target="_blank">Privacybeleid iNaturalist</a>.</li>
   <li><strong>OpenWeather</strong> – actueel weer op uw vangstlocatie. Alleen GPS-coördinaten worden verstuurd.</li>
   <li><strong>OpenStreetMap / Nominatim</strong> – omgekeerde geocodering (GPS → plaatsnaam). Alleen GPS-coördinaten worden verstuurd.</li>
 </ul>
